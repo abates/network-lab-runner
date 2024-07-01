@@ -1,0 +1,21 @@
+---
+providers:
+  kubernetesIngress:
+    publishedService:
+      enabled: true
+#logs:
+#  general:
+#    level: DEBUG
+#  access:
+#    enabled: true
+
+extraObjects:
+  - apiVersion: traefik.io/v1alpha1
+    kind: Middleware
+    metadata:
+      name: redirect-https
+    spec:
+      redirectScheme:
+        scheme: https
+        permanent: true
+
