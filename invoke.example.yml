@@ -1,0 +1,20 @@
+---
+automation_lab_demo:
+  # debug: false
+  infrastructure:
+    do_token: ""
+    # region: "nyc3"
+    # k8s_size: "s-2vcpu-4gb"
+    # k8s_clustername: "nautobot"
+    # k8s_version: "1.30.1-do.0"
+    # k8s_poolname: "worker-pool"
+    # k8s_node_count: 4
+
+  deployment:
+    # nautobot_image_registry: "ghcr.io"
+    # nautobot_image_repository: "nautobot/nautobot"
+    # nautobot_image_tag: "latest"
+    do_dns_token: "changeme"
+    nautobot_hostname: "changeme"
+    lab_domain: "changeme"
+    cert_manager_contact: "changeme"

@@ -1,0 +1,90 @@
+[
+{
+  "model": "dcim.locationtype",
+  "fields": {
+    "created": "2024-07-15T15:20:37.972Z",
+    "last_updated": "2024-07-15T15:20:37.972Z",
+    "_custom_field_data": {},
+    "parent": null,
+    "name": "Site",
+    "description": "",
+    "nestable": false,
+    "content_types": [
+      [
+        "dcim",
+        "powerpanel"
+      ],
+      [
+        "dcim",
+        "device"
+      ],
+      [
+        "dcim",
+        "rackgroup"
+      ],
+      [
+        "dcim",
+        "rack"
+      ],
+      [
+        "ipam",
+        "prefix"
+      ],
+      [
+        "ipam",
+        "vlan"
+      ],
+      [
+        "circuits",
+        "circuittermination"
+      ],
+      [
+        "ipam",
+        "vlangroup"
+      ],
+      [
+        "ipam",
+        "namespace"
+      ],
+      [
+        "dcim",
+        "controller"
+      ],
+      [
+        "virtualization",
+        "cluster"
+      ]
+    ]
+  }
+},
+{
+  "model": "dcim.location",
+  "fields": {
+    "created": "2024-07-15T15:20:50.305Z",
+    "last_updated": "2024-07-15T15:20:50.305Z",
+    "_custom_field_data": {},
+    "parent": null,
+    "name": "Lab",
+    "_name": "Lab",
+    "location_type": [
+      "Site"
+    ],
+    "status": [
+      "Active"
+    ],
+    "tenant": null,
+    "description": "",
+    "facility": "",
+    "asn": null,
+    "time_zone": null,
+    "physical_address": "",
+    "shipping_address": "",
+    "latitude": null,
+    "longitude": null,
+    "contact_name": "",
+    "contact_phone": "",
+    "contact_email": "",
+    "comments": ""
+  }
+}
+]

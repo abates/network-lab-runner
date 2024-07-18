@@ -1,9 +1,0 @@
----
-provider: digitalocean
-sources: 
-  - ingress
-#domainFilters:
-#  - lab.omeganetserv.com
-digitalocean:
-  secretName: "external-dns-token"
-logLevel: debug
